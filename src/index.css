@@ -23,3 +23,17 @@ li {
 li:hover {
   box-shadow: var(--shadow-3);
 }
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem 1rem;
+}
+.products img {
+  max-width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.products h2 {
+  font-size: 0.8rem;
+}
