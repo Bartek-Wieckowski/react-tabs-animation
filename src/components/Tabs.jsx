@@ -1,12 +1,16 @@
 import React from 'react';
 
-const Tabs = () => {
+const Tabs = ({ onSetCategory }) => {
+  const handleClick = (newCategory) => {
+    onSetCategory(newCategory.toLowerCase());
+  };
+
   return (
     <nav>
       <ul>
-        <li>All</li>
-        <li>Laptops</li>
-        <li>Smartphone</li>
+        <li onClick={() => handleClick('All')}>All</li>
+        <li onClick={() => handleClick('Laptops')}>Laptops</li>
+        <li onClick={() => handleClick('Smartphones')}>Smartphones</li>
       </ul>
     </nav>
   );
