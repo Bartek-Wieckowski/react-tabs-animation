@@ -1,7 +1,8 @@
+import Tabs from './components/Tabs';
 function App() {
   return (
     <div className="app">
-      <h1>test</h1>
+      <Tabs />
     </div>
   );
 }
