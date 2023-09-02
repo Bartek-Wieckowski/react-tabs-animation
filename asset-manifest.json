@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.208122b4.css",
-    "main.js": "/static/js/main.3419b0f5.js",
-    "index.html": "/index.html",
-    "main.208122b4.css.map": "/static/css/main.208122b4.css.map",
-    "main.3419b0f5.js.map": "/static/js/main.3419b0f5.js.map"
+    "main.css": "/react-tabs-animation/static/css/main.208122b4.css",
+    "main.js": "/react-tabs-animation/static/js/main.3419b0f5.js",
+    "index.html": "/react-tabs-animation/index.html",
+    "main.208122b4.css.map": "/react-tabs-animation/static/css/main.208122b4.css.map",
+    "main.3419b0f5.js.map": "/react-tabs-animation/static/js/main.3419b0f5.js.map"
   },
   "entrypoints": [
     "static/css/main.208122b4.css",
